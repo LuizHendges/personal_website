@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-mail</title>
+    <style>
+        /* Estilos seguros para e-mail */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f2f4f7;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container {
+            width: 100%;
+            padding: 20px 0;
+            background-color: #f2f4f7;
+        }
+        .email-box {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            border: 1px solid #e1e1e1;
+        }
+        h1 {
+            color: #333333;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #555555;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #777777;
+            text-align: center;
+        }
+        .signature {
+            margin-top: 25px;
+            font-style: italic;
+            color: #444444;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="email-box">
+            
+            <h1>Olá, ${nome}!</h1>
+
+            <p>
+                Este é um e-mail de teste enviado através do seu script Python!  
+                Você já está usando um template HTML profissional completamente personalizável.
+            </p>
+
+            <p>
+                Isso abre caminho para enviar e-mails de boas-vindas, recuperação de senha,
+                confirmações, notificações e muito mais.
+            </p>
+
+            <div class="signature">
+                Atenciosamente,<br />
+                Luiz Alberto.
+            </div>
+
+        </div>
+
+        <div class="footer">
+            Este e-mail foi enviado automaticamente pelo sistema de testes em Python.
+        </div>
+    </div>
+
+</body>
+</html>
